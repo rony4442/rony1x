@@ -24,7 +24,6 @@ def ud():
     print(' [2] EXIT')
     opt = input('\n   CHOOSE OPTION >>>\033[1;37m ')
     if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCqmAeJg_2YaF9q_zFIxwSlQ')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -37,7 +36,7 @@ def FD():
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m CHOOSE OPTION >>> ')
     if opt == '1':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100075160338795')
+        os.system('xdg-open https://www.facebook.com/RMALONE.bdeditor?mibextid=ZbWKwL)
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -56,15 +55,7 @@ def o():
     opt = input('\n   \x1b[1;32m CHOOSE OPTION >>> ')
     if opt == '1':
         i()
-    if opt == '2':
-        os.system('xdg-open https://www.facebook.com/Ummmmaaaaaahh')
-        return None
-    if opt == '3':
-        os.system('xdg-open https://youtube.com/channel/UCqmAeJg_2YaF9q_zFIxwSlQ')
-        return None
-    if opt == '4':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100075160338795')
-        
+    if opt == '2       
 import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
@@ -243,11 +234,11 @@ def i():
         user.append(nmp)
     os.system("clear")
     print(logo)
-    passx = int(input("[*] Enter Password Limit : "))
+    passx = int(input("[*] Enter Password Limit :123456 "))
     HamiiID = []
     print("")
     for bilal in range(passx):
-        pww = input("[*] Enter Password : ")
+        pww = input("[*] Enter Password :123456 ")
         HamiiID.append(pww)
     with ThreadPool(max_workers=50) as manshera:
         clear()
